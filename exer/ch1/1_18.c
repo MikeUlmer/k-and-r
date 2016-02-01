@@ -51,7 +51,7 @@ int get_line(char s[], int lim) {
 			++j;
 		}
 		
-		previous = c;  // Use previous--any offending chars are considered trailing.
+		previous = c;  /* Use previous--any offending chars are considered trailing.*/
 	}
 	if (c == '\n') {
 		s[j] = c;
